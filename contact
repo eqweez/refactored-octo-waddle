@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Заказать сладости — Sweet Paradise</title>
+    <style>
+        body { background-color: #fff5f7; font-family: 'Segoe UI', Arial, sans-serif; margin: 0; padding: 20px; }
+        nav { background-color: #ff6b81; padding: 15px; border-radius: 12px; margin-bottom: 20px; }
+        .btn { color: white; text-decoration: none; padding: 10px 22px; margin-right: 10px; border-radius: 20px; background-color: #ff4757; font-weight: bold; transition: 0.3s; }
+        .btn:hover { background-color: #e84118; }
+        .content { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+        h1 { color: #ff4757; }
+        
+        /* Стили для кондитерской формы */
+        form { display: flex; flex-direction: column; max-width: 400px; gap: 12px; margin-top: 20px; }
+        input, select, textarea { padding: 12px; border: 1px solid #ffdae0; border-radius: 6px; font-family: inherit; }
+        input:focus, select:focus, textarea:focus { outline: none; border-color: #ff4757; box-shadow: 0 0 5px rgba(255, 71, 87, 0.3); }
+        .submit-btn { background-color: #ff4757; color: white; border: none; cursor: pointer; padding: 12px; border-radius: 6px; font-weight: bold; transition: 0.2s; }
+        .submit-btn:hover { background-color: #e84118; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html" class="btn">Главная</a>
+        <a href="catalog.html" class="btn">Наши Сладости</a>
+        <a href="gallery.html" class="btn">Галерея вкуса</a>
+        <a href="contacts.html" class="btn">Заказать сладости</a>
+    </nav>
+
+    <div class="content">
+        <h1>Оставить заявку на сладкий бокс</h1>
+        <p>Заполните форму заказа, и наш шеф-кондитер свяжется с вами для подтверждения деталей.</p>
+
+        <!-- Элемент: Сладкая интерактивная форма -->
+        <form>
+            <label>Ваше имя:</label>
+            <input type="text" placeholder="Иван Иванов" required>
+
+            <label>Ваш контактный телефон или Email:</label>
+            <input type="text" placeholder="+7 (999) 000-00-00" required>
+
+            <label>Что вы хотите заказать?</label>
+            <select required>
+                <option value="">-- Выберите десерт --</option>
+                <option value="macarons">Набор макарон</option>
+                <option value="cupcakes">Ассорти капкейков</option>
+                <option value="bento">Бенто-торт с индивидуальным дизайном</option>
+                <option value="other">Другое (укажите в комментарии)</option>
+            </select>
+
+            <label>Пожелания к декору или вкусу:</label>
+            <textarea placeholder="Например: сделать надпись 'С днем рождения!' или убрать арахис..." rows="4"></textarea>
+
+            <button type="submit" class="submit-btn">Отправить сладкий заказ 🍰</button>
+        </form>
+    </div>
+
+</body>
+</html>
