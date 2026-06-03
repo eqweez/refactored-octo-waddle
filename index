@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Кондитерская Cake Story — Главная</title>
+    <style>
+        /* Общие стили: меняем фон на нежно-розовый кондитерский оттенок */
+        body {
+            background-color: #fff5f7; 
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        /* Яркое конфетное меню навигации */
+        nav {
+            background-color: #ff6b81;
+            padding: 15px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        /* Ссылки-кнопки */
+        .btn {
+            color: white;
+            text-decoration: none;
+            padding: 10px 22px;
+            margin-right: 10px;
+            border-radius: 20px; /* Округлые "леденцовые" кнопки */
+            background-color: #ff4757;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        /* Эффект при наведении курсора */
+        .btn:hover {
+            background-color: #e84118;
+            box-shadow: 0 2px 10px rgba(232, 65, 24, 0.4);
+        }
+        /* Контентная зона */
+        .content {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+        h1 { color: #ff4757; }
+        h3 { color: #2f3542; }
+    </style>
+</head>
+<body>
+
+    <!-- Пункт 2: Навигация -->
+    <nav>
+        <a href="index.html" class="btn">Главная</a>
+        <a href="catalog.html" class="btn">Наши Сладости</a>
+        <a href="gallery.html" class="btn">Галерея вкуса</a>
+        <a href="contacts.html" class="btn">Заказать сладости</a>
+    </nav>
+
+    <!-- Пункт 3: Наполнение страницы -->
+    <div class="content">
+        <h1>Добро пожаловать в Cake Story! 🍬</h1>
+        <p>Мы создаем уникальные десерты ручной работы, которые дарят искреннюю радость и делают любой день праздничным.</p>
+        
+        <h3>В нашем ассортименте вы найдете:</h3>
+        <!-- Элемент: Маркированный список -->
+        <ul>
+            <li>Французские пирожные макарон по секретным рецептам</li>
+            <li>Капкейки с сочной ягодной начинкой</li>
+            <li>Шоколадные наборы из бельгийского шоколада</li>
+            <li>Праздничные торты на заказ любого уровня сложности</li>
+        </ul>
+    </div>
+
+</body>
+
+</html>
+
