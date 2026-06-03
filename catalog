@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Наши Сладости — Sweet Paradise</title>
+    <style>
+        body { background-color: #fff5f7; font-family: 'Segoe UI', Arial, sans-serif; margin: 0; padding: 20px; }
+        nav { background-color: #ff6b81; padding: 15px; border-radius: 12px; margin-bottom: 20px; }
+        .btn { color: white; text-decoration: none; padding: 10px 22px; margin-right: 10px; border-radius: 20px; background-color: #ff4757; font-weight: bold; transition: 0.3s; }
+        .btn:hover { background-color: #e84118; }
+        .content { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+        h1 { color: #ff4757; }
+        
+        /* Стили для кондитерского прайс-листа */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ffdae0;
+            padding: 14px;
+            text-align: left;
+        }
+        th { background-color: #ff6b81; color: white; }
+        tr:nth-child(even) { background-color: #fff9fa; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html" class="btn">Главная</a>
+        <a href="catalog.html" class="btn">Наши Сладости</a>
+        <a href="gallery.html" class="btn">Галерея вкуса</a>
+        <a href="contacts.html" class="btn">Заказать сладости</a>
+    </nav>
+
+    <div class="content">
+        <h1>Прайс-лист на десерты</h1>
+        <p>Все сладости готовятся исключительно из натуральных ингредиентов в день вашего заказа.</p>
+
+        <!-- Элемент: Таблица / Прайс-лист -->
+        <table>
+            <tr>
+                <th>Наименование сладости</th>
+                <th>Порция / Вес</th>
+                <th>Стоимость</th>
+            </tr>
+            <tr>
+                <td>Набор макарон (6 штук)</td>
+                <td>150 г</td>
+                <td>750 руб.</td>
+            </tr>
+            <tr>
+                <td>Капкейк «клубничное облако»</td>
+                <td>1 шт. / 90 г</td>
+                <td>180 руб.</td>
+            </tr>
+            <tr>
+                <td>Шоколад ручной работы с орехами</td>
+                <td>Плитка 100 г</td>
+                <td>350 руб.</td>
+            </tr>
+            <tr>
+                <td>Торт «Бенто» (мини-торт с надписью)</td>
+                <td>450 г</td>
+                <td>1 200 руб.</td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>
+
+
